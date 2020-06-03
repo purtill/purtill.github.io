@@ -7,11 +7,11 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
-     color: #1462ce;
 }
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
+    color: #1462ce;
 }
 a {
     text-decoration: none;
