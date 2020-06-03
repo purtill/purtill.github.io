@@ -1,4 +1,3 @@
-	name: Matt Purtill
-	markdown: kramdown
-	
-	permalink: /blog/:year/:month/:day/:title
+name: Matt Purtill
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
