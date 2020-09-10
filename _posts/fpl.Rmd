@@ -2,7 +2,7 @@
 title: "Fantasy Premier League 20/21 Analysis"
 author: "Matt Purtill"
 date: "29/08/2020"
-output: html_document
+layout: post
 ---
 
 ```{r setup, include=FALSE}
