@@ -1,3 +1,9 @@
+---
+
+title: "Exploting Fantasy Premier League Data with Shiny"
+
+---
+
 This R Shiny app gives a view of top performing Fantasy Premier League
 players based on their points and cost. At the core of the game is the
 optimisation of points scored while remaining within a budget. To help
