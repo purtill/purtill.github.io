@@ -24,5 +24,5 @@ Source code can be found on
 [GitHub](https://github.com/purtill/soccer/tree/master/fpl.player.chart)
 here.
 
-<iframe width="450" height="600" scrolling="no" frameborder="no" src="https://purtill.shinyapps.io/fpl_player_chart/">
+<iframe width="800" height="1000" scrolling="no" frameborder="no" src="https://purtill.shinyapps.io/fpl_player_chart/">
 </iframe>
