@@ -1,6 +1,6 @@
 ---
 
-title: "Exploting Fantasy Premier League Data with Shiny"
+title: "Exploring Fantasy Premier League Data with Shiny"
 
 ---
 
