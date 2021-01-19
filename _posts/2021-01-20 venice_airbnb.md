@@ -1,3 +1,10 @@
+---
+
+title: Using R to Explore The Impact of COVID-19 on Venice’s Airbnb Rates
+
+---
+
+
 ### Using R to Explore The Impact of COVID-19 on Venice’s Airbnb Rates
 
 Prior to 2020 Venice was used as one of the most harmful examples of
