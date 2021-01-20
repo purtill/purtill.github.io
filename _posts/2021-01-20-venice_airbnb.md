@@ -32,15 +32,15 @@ that the site takes a critical stance towards Airbnb’s impact on cities,
 and provides its own analysis on featured cities.
 
 This analysis will be constructed using R, using mostly tidyverse ggplot
-visualisations and the leaflet mapping package. and an R Markdown copy
+visualisations and the leaflet mapping package. A RMarkdown copy
 of the code is [available here](https://github.com/purtill/venice__airbnb).
 
 Venice’s Pre-Coronavirus Airbnb Ecosystem
 -----------------------------------------
 
 In August 2019 there are 8,907 properties listed for Venice with an ADR
-of $139. However, we can see a massive range in average rates - from a
-low of $9 a night to a suspicious value of $12,345. We can build a
+of $139. However, there is a massive range in rates - from a
+low of $9 a night to a (suspiciously arbitrary) value of $12,345. We can build a
 histogram to display the spread of ADR across properties.
 
 ![](/assets/venice_airbnb_files/figure-markdown_strict/ADR%20histogram-1.png)
