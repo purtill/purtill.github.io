@@ -43,7 +43,7 @@ of $139. However, we can see a massive range in average rates - from a
 low of $9 a night to a suspicious value of $12,345. We can build a
 histogram to display the spread of ADR across properties.
 
-![](assets/venice_airbnb_files/figure-markdown_strict/ADR%20histogram-1.png)
+![](/assets/venice_airbnb_files/figure-markdown_strict/ADR%20histogram-1.png)
 
 Lots of the definition in the low range is lost because of the few very
 high ADR properties. As most of the action is in the $1000 or below
@@ -52,7 +52,7 @@ price range of us mere-mortals. As we are looking at a price variable, I
 will also compare the distribution with a logarithmic value to see if it
 brings to a more symmetical distribution.
 
-![](venice_airbnb_files/figure-markdown_strict/ADR%20histogram%20elaborated-1.png)![](venice_airbnb_files/figure-markdown_strict/ADR%20histogram%20elaborated-2.png)
+![](/assets/venice_airbnb_files/figure-markdown_strict/ADR%20histogram%20elaborated-1.png)![](/assets/venice_airbnb_files/figure-markdown_strict/ADR%20histogram%20elaborated-2.png)
 
 As we might expect, the ADR is distributed witsh a positive skew, which
 becomes more symmetrical with a logarithmic function. This will be
@@ -67,7 +67,7 @@ a position in the islands. Unsurprisingly, the island neighbourhoods
 also show the largest number of properties on short-term rental sites.
 
 
-<iframe src="venice_airbnb_files/neighbourhood_map.html" height="600px" width="100%" style="border:none;">
+<iframe src="/assets/venice_airbnb_files/neighbourhood_map.html" height="600px" width="100%" style="border:none;">
 </iframe>
 
 Impact of COVID-19 on Summer Bookings
@@ -76,7 +76,7 @@ Impact of COVID-19 on Summer Bookings
 There are approximately 400 fewer properties available in Venice, and
 median daily rates are down by $17 (-15%).
 
-![](venice_airbnb_files/figure-markdown_strict/comparing%20neighbourhoods-1.png)
+![](/assets/venice_airbnb_files/figure-markdown_strict/comparing%20neighbourhoods-1.png)
 
 Looking at the regional difference in rates and properties and the
 difference between the islands (‘Isole’) and the mainland
@@ -99,7 +99,7 @@ early August, whereas the 2020 rates were scraped towards late August
 just ahead of the popular Ferragosto holiday, when these beach
 properties would be at their highest demand.
 
-![](venice_airbnb_files/figure-markdown_strict/direct%20impact%20on%20same%20listings-1.png)
+![](/assets/venice_airbnb_files/figure-markdown_strict/direct%20impact%20on%20same%20listings-1.png)
 
 We can also track individual properties that have been listed over the
 past year and use a boxplot to compare the difference in rates between
@@ -117,7 +117,7 @@ a wide range of rate changes, partly due to the individual circumstances
 of each property, but is perhaps an indication that there is no single
 strategy that Airbnb hosts has taken during the pandemic.
 
-<iframe src="venice_airbnb_files/property_map.html" height="600px" width="100%" style="border:none;">
+<iframe src="/assets/venice_airbnb_files/property_map.html" height="600px" width="100%" style="border:none;">
 </iframe>
 
 Using R’s leaflet mappping package, we can dive deeper into the data,
@@ -160,8 +160,8 @@ has only scraped the surface of what is available in this dataset so
 there is a large scope for future analysis:
 
 -   Using quantitative measures and text descriptions to model rates and
-    rate changes
+    rate changes.
 -   Track the impact of amenities and descriptions on property review
-    scores
+    scores.
 -   Compare the difference in the market for hosts with multiple
-    properties compared to small-scale single unit hosts
+    properties compared to small-scale single unit hosts.
