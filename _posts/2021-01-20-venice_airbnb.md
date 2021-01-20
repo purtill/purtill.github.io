@@ -43,7 +43,7 @@ of $139. However, we can see a massive range in average rates - from a
 low of $9 a night to a suspicious value of $12,345. We can build a
 histogram to display the spread of ADR across properties.
 
-![](venice_airbnb_files/figure-markdown_strict/ADR%20histogram-1.png)
+![](assets/venice_airbnb_files/figure-markdown_strict/ADR%20histogram-1.png)
 
 Lots of the definition in the low range is lost because of the few very
 high ADR properties. As most of the action is in the $1000 or below
