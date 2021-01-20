@@ -18,7 +18,7 @@ The coronavirus pandemic changed everything, as international tourism
 during the 2020. This article will examine the impact of the pandemic on
 Venice’s Airbnb ecosystem between August 2019 and August 2020. We will
 consider how the distribution and cost of properties changed in the
-year, and which locations have bee n the most impacted.
+year, and which locations have been the most impacted.
 
 Our Data Source
 ---------------
@@ -33,7 +33,7 @@ and provides its own analysis on featured cities.
 
 This analysis will be constructed using R, using mostly tidyverse ggplot
 visualisations and the leaflet mapping package. and an R Markdown copy
-of the code is available here.
+of the code is [available here] (https://github.com/purtill/venice__airbnb).
 
 Venice’s Pre-Coronavirus Airbnb Ecosystem
 -----------------------------------------
@@ -47,18 +47,18 @@ histogram to display the spread of ADR across properties.
 
 Lots of the definition in the low range is lost because of the few very
 high ADR properties. As most of the action is in the $1000 or below
-range, we can do an alternative histogram for properties that are in the
-price range of us mere-mortals. As we are looking at a price variable, I
+range, we can do an alternative histogram for properties that are in a more
+sensible price range. As we are looking at a price variable, I
 will also compare the distribution with a logarithmic value to see if it
-brings to a more symmetical distribution.
+brings to a more symmetrical distribution.
 
 ![](/assets/venice_airbnb_files/figure-markdown_strict/ADR%20histogram%20elaborated-1.png)![](/assets/venice_airbnb_files/figure-markdown_strict/ADR%20histogram%20elaborated-2.png)
 
-As we might expect, the ADR is distributed witsh a positive skew, which
+As we might expect, the ADR is distributed with a positive skew, which
 becomes more symmetrical with a logarithmic function. This will be
 useful to know for modelling later on.
 
-Of course, not all properties are equal. The city of Venice includes the
+Not all location are equal. The city of Venice includes the
 well-known central islands, but also includes some more peripheral
 islands, as well as a large area of the mainland, which connects to the
 islands by bridge. We can plot the median daily rate for each
@@ -95,9 +95,9 @@ city’s summer beach resort on the edge of the lagoon. The region may
 have been boosted by increased numbers of domestic breaks during the
 pandemic. Additionally, the increase in rates may be due to slightly
 changing dates from when the data was scraped - the 2019 rates are from
-early August, whereas the 2020 rates were scraped towards late August
-just ahead of the popular Ferragosto holiday, when these beach
-properties would be at their highest demand.
+early August, whereas the 2020 rates were scraped towards late August, not long
+after the Ferragosto holiday, when these beach properties would have been at
+their highest demand.
 
 ![](/assets/venice_airbnb_files/figure-markdown_strict/direct%20impact%20on%20same%20listings-1.png)
 
@@ -120,7 +120,7 @@ strategy that Airbnb hosts has taken during the pandemic.
 <iframe src="/assets/venice_airbnb_files/property_map.html" height="600px" width="100%" style="border:none;">
 </iframe>
 
-Using R’s leaflet mappping package, we can dive deeper into the data,
+Using R’s leaflet mapping package, we can dive deeper into the data,
 plotting each property that appears in 2019 and 2020. The colour of each
 dot represents the change in daily rate on a year-on-year basis.
 Focussing on just the historic main islands, there are far more reds
