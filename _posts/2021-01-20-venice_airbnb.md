@@ -10,7 +10,7 @@ always_allow_html: true
 ---
 
 Prior to 2020 Venice was used as one of the most harmful examples of
-overtourism in the world. Like all tourist hotspots, the impact of
+over-tourism in the world. Like all tourist hotspots, the impact of
 short-term rentals on the local housing market has been under scrutiny,
 with the threat of regulation over Airbnb-style home rentals.
 
@@ -66,28 +66,12 @@ neighbourhood of the city to show how much of a premium is placed on the
 a position in the islands. Unsurprisingly, the island neighbourhoods
 also show the largest number of properties on short-term rental sites.
 
-    ## OGR data source with driver: GeoJSON 
-    ## Source: "/Users/mattpurtill/Desktop/Projects/venice_airbnb/neighbourhoods.geojson", layer: "neighbourhoods"
-    ## with 118 features
-    ## It has 2 fields
 
-    ## Warning: Column `neighbourhood` joining factors with different levels, coercing
-    ## to character vector
-
-<iframe src="neighbourhood_map.html" height="600px" width="100%" style="border:none;">
+<iframe src="venice_airbnb_files/neighbourhood_map.html" height="600px" width="100%" style="border:none;">
 </iframe>
+
 Impact of COVID-19 on Summer Bookings
 -------------------------------------
-
--   stays/availability
--   impact on prices on like-for-like properties
-
-<!-- -->
-
-    ## # A tibble: 1 x 4
-    ##   properties_2019 properties_2020 price_2019 price_2020
-    ##             <int>           <int>      <dbl>      <dbl>
-    ## 1            8907            8399        110         93
 
 There are approximately 400 fewer properties available in Venice, and
 median daily rates are down by $17 (-15%).
@@ -133,8 +117,9 @@ a wide range of rate changes, partly due to the individual circumstances
 of each property, but is perhaps an indication that there is no single
 strategy that Airbnb hosts has taken during the pandemic.
 
-<iframe src="property_map.html" height="600px" width="100%" style="border:none;">
+<iframe src="venice_airbnb_files/property_map.html" height="600px" width="100%" style="border:none;">
 </iframe>
+
 Using R’s leaflet mappping package, we can dive deeper into the data,
 plotting each property that appears in 2019 and 2020. The colour of each
 dot represents the change in daily rate on a year-on-year basis.
@@ -146,8 +131,8 @@ properties that have raised their rates.
 We might expect that central areas close to tourist attractions are the
 most impacted by the reduction in the number of visiting tourists.
 Around these areas there are plenty of properties that cut their rates,
-but also a fair number of properties that have raised their rates from
-2019. This is surprising, and is maybe something to investigate with
+but also a fair number of properties that have raised their rates from 2019.
+This is surprising, and is maybe something to investigate with
 further research or modelling.
 
 Also of interest is the reduction in rates in the south-east of the main
