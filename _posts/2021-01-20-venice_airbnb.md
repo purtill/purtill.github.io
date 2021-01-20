@@ -33,7 +33,7 @@ and provides its own analysis on featured cities.
 
 This analysis will be constructed using R, using mostly tidyverse ggplot
 visualisations and the leaflet mapping package. and an R Markdown copy
-of the code is [available here] (https://github.com/purtill/venice__airbnb).
+of the code is [available here](https://github.com/purtill/venice__airbnb).
 
 Venice’s Pre-Coronavirus Airbnb Ecosystem
 -----------------------------------------
