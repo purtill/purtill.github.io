@@ -1,0 +1,6 @@
+I"1<p>This R Shiny app gives a view of top performing Fantasy Premier League
+players based on their points and cost. At the core of the game is the
+optimisation of points scored while remaining within a budget. To help
+determine ‘value’ picks, lines show combinations of equal points scored
+by cost.</p>
+:ET
