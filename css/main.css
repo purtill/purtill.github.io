@@ -32,7 +32,7 @@ h2 {
 }
 p {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    font-size: 1.3em;
+    font-size: 1em;
     line-height: 1.4em;
     color: #333;
 }
@@ -57,3 +57,8 @@ ul.posts li {
     list-style: none;
     line-height: 1.3em
 }
+
+.content {
+width: 100%;
+align-self: center;
+padding-top: 10px;}
