@@ -6,6 +6,7 @@ output:
    md_document:
       preserve_yaml: TRUE
 always_allow_html: true
+layout: post
 
 ---
 

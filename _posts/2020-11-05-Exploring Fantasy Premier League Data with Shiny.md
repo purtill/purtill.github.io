@@ -1,6 +1,13 @@
 ---
 
 title: "Exploring Fantasy Premier League Data with Shiny"
+layout: post
+author: "Matt Purtill"
+date: "05/11/2020"
+output:
+   md_document:
+      preserve_yaml: TRUE
+always_allow_html: true
 
 ---
 
