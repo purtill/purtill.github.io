@@ -4,7 +4,7 @@
 	<title>Matt Purtill's Blog</title>
 	<link href="http://purtill.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://purtill.github.io/blog"/>
-	<updated>2021-02-12T17:56:38+00:00</updated>
+	<updated>2025-08-14T22:55:45+01:00</updated>
 	<id>http://purtill.github.io/blog</id>
 	<author>
 		<name>Matt Purtill</name>
@@ -169,36 +169,6 @@ scores.&lt;/li&gt;
   &lt;li&gt;Compare the difference in the market for hosts with multiple
 properties compared to small-scale single unit hosts.&lt;/li&gt;
 &lt;/ul&gt;
-</content>
-		</entry>
-	
-		<entry>
-			<title>Exploring Fantasy Premier League Data with Shiny</title>
-			<link href="http://purtill.github.io/blog/2020/11/05/Exploring-Fantasy-Premier-League-Data-with-Shiny"/>
-			<updated>2020-11-05T00:00:00+00:00</updated>
-			<id>http://purtill.github.io/blog/2020/11/05/Exploring Fantasy Premier League Data with Shiny</id>
-			<content type="html">&lt;p&gt;This R Shiny app gives a view of top performing Fantasy Premier League
-players based on their points and cost. At the core of the game is the
-optimisation of points scored while remaining within a budget. To help
-determine ‘value’ picks, lines show combinations of equal points scored
-by cost.&lt;/p&gt;
-
-&lt;p&gt;Filters allow the user to select for players of specific position and
-maximum cost. A filter on popularity (specifically the percentage that
-have a player picked) allows the user to find undiscovered
-‘differential’ picks.&lt;/p&gt;
-
-&lt;p&gt;The visualisation is based off of a static data file to avoid too many
-API requests using the
-&lt;a href=&quot;https://wiscostret.github.io/fplscrapR/&quot;&gt;fplscrapR&lt;/a&gt; package. Because of
-this, the data presented may be out of date.&lt;/p&gt;
-
-&lt;p&gt;Source code can be found on
-&lt;a href=&quot;https://github.com/purtill/soccer/tree/master/fpl.player.chart&quot;&gt;GitHub&lt;/a&gt;
-here.&lt;/p&gt;
-
-&lt;iframe width=&quot;800&quot; height=&quot;1000&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://purtill.shinyapps.io/fpl_player_chart/&quot;&gt;
-&lt;/iframe&gt;
 </content>
 		</entry>
 	

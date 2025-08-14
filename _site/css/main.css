@@ -1,9 +1,10 @@
 body {
     margin: 60px auto;
     width: 70%;
+    background-color: #fffee1;
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -16,22 +17,22 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #bc1003;
+    color: #009d46;
 }
 a:hover {
     text-decoration: underline;
 }
 h1 {
     font-size: 1.6em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: revert-layer'Helvetica', 'Arial', 'Sans-Serif';
     text-align: center;
 }
 h2 {
     font-size: 1.3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
     font-size: 1em;
     line-height: 1.4em;
     color: #333;
@@ -62,3 +63,29 @@ ul.posts li {
 width: 100%;
 align-self: center;
 padding-top: 10px;}
+
+ .container {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .photo {
+      flex: 1; /* 1/3 of the width */
+      background: url('your-photo.jpg') center/cover no-repeat;
+    }
+
+    .text {
+      flex: 2; /* 2/3 of the width */
+      padding: 2rem;
+    }
+
+    /* Responsive layout: stack photo on top of text */
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .photo {
+        height: 40vh; /* Adjust as needed for mobile */
+      }
+    }
